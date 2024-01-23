@@ -105,12 +105,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['guess'])) {
         body {
             font-family: 'Arial', sans-serif;
             text-align: center;
-            background-color: #f8f8f8;
+            background-color: #fef8a4;
             margin: 0;
             padding: 0;
+            
         }
 
-        h1, p {
+        h1 {
             color: #e73a76;
             
         }
